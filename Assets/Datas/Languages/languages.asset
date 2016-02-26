@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f0655a5b2524974abf61506ca2dc708, type: 3}
+  m_Name: languages
+  m_EditorClassIdentifier:
+  sets_:
+  - tag_: free
+    japan_: "\u9003\u304C\u3059"
+    english_: Free
+  - tag_: auto
+    japan_: "\u81EA\u52D5"
+    english_: Auto
+  - tag_: rabbit
+    japan_: "\u514E"
+    english_: Rabbit
+  - tag_: sheep
+    japan_: "\u7F8A"
+    english_: Sheep
+  - tag_: goat
+    japan_: "\u5C71\u7F8A"
+    english_: Goat
+  - tag_: hiki_s
+    japan_: "\u7F8A\u304C {0} \u5339"
+    english_: '{0} Sheeps'
+  - tag_: hiki_r
+    japan_: "\u514E\u304C {0} \u7FBD"
+    english_: '{0} Rabbits'
+  - tag_: convlang
+    japan_: English
+    english_: "\u65E5\u672C\u8A9E"
+  - tag_: quiet
+    japan_: "\u6D88\u97F3"
+    english_: Quiet
+  - tag_: stop
+    japan_: "\u505C\u6B62"
+    english_: stop
+  language_: 1
